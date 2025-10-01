@@ -8,6 +8,9 @@ const PricingSection = () => {
   return (
     <section id="pricing" className="bg-brand-green px-3 py-12 sm:px-4 sm:py-16 md:py-24">
       <div className="container mx-auto max-w-6xl">
+        <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold text-brand-yellow mb-8 sm:mb-12">
+          ADQUIRA JÁ O SEU ACESSO AO NOSSO ECOSSISTEMA
+        </h2>
         <div className="grid gap-6 sm:gap-8 lg:grid-cols-2">
           {/* Basic Plan */}
           <Card className="touch-manipulation border-2 border-brand-green/20 shadow-[var(--shadow-card)]">
@@ -48,7 +51,7 @@ const PricingSection = () => {
                 size="lg"
                 onClick={() => window.open('https://go.pepperpay.com.br/i7x4b', '_blank')}
               >
-                ESCOLHER PLANO COMUM
+                ESCOLHER ACESSO COMUM
               </Button>
             </CardContent>
           </Card>
@@ -112,7 +115,7 @@ const PricingSection = () => {
                 size="lg"
                 onClick={() => window.open('https://go.pepperpay.com.br/zjsrf', '_blank')}
               >
-                ESCOLHER PLANO PREMIUM
+                ESCOLHER ACESSO PREMIUM
               </Button>
             </CardContent>
           </Card>
