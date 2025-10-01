@@ -15,8 +15,8 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 active:scale-95",
         ghost: "hover:bg-accent hover:text-accent-foreground active:scale-95",
         link: "text-primary underline-offset-4 hover:underline active:scale-95",
-        hero: "bg-brand-green-light text-brand-white hover:bg-brand-green/80 shadow-[var(--shadow-button)] font-bold text-sm sm:text-lg md:text-xl px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 w-full max-w-full",
-        cta: "bg-brand-yellow text-brand-green hover:bg-brand-yellow/90 shadow-[var(--shadow-button)] font-bold text-sm sm:text-lg md:text-xl px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 w-full max-w-full",
+        hero: "bg-brand-green-light text-brand-white hover:bg-brand-green/80 shadow-[var(--shadow-glow-green)] font-bold text-sm sm:text-lg md:text-xl px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 w-full max-w-full",
+        cta: "bg-brand-yellow text-brand-green hover:bg-brand-yellow/90 shadow-[var(--shadow-glow-yellow)] font-bold text-sm sm:text-lg md:text-xl px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 w-full max-w-full",
       },
       size: {
         default: "h-12 px-6 py-3 text-base min-h-[48px]",

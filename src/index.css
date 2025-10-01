@@ -46,6 +46,8 @@ All colors MUST be HSL.
     /* Shadows */
     --shadow-card: 0 4px 20px hsl(var(--brand-green) / 0.1);
     --shadow-button: 0 2px 10px hsl(var(--brand-green) / 0.2);
+    --shadow-glow-green: 0 0 20px hsl(var(--brand-green-light) / 0.5), 0 0 40px hsl(var(--brand-green-light) / 0.3);
+    --shadow-glow-yellow: 0 0 20px hsl(var(--brand-yellow) / 0.5), 0 0 40px hsl(var(--brand-yellow) / 0.3);
     --text-glow: 0 0 2px hsl(var(--brand-white) / 0.3), 0 0 4px hsl(var(--brand-white) / 0.2);
 
     --border: 214.3 31.8% 91.4%;
