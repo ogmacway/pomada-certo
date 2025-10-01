@@ -2,12 +2,10 @@ import guaranteeSeal from "@/assets/guarantee-seal.png";
 import logoWhatsapp from "@/assets/logo-whatsapp.png";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-
 const GuaranteeSection = () => {
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/5548992050264", "_blank");
   };
-
   return <section className="bg-brand-white px-3 py-12 sm:px-4 sm:py-16 md:py-24">
       <div className="container mx-auto max-w-4xl text-center">
         {/* Guarantee Seal */}
@@ -26,23 +24,7 @@ const GuaranteeSection = () => {
         </p>
 
         {/* WhatsApp Contact Card */}
-        <Card className="mx-auto max-w-2xl border-brand-green bg-gradient-to-r from-brand-green/5 to-brand-green-light/5 p-6 sm:p-8">
-          <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
-            <img 
-              src={logoWhatsapp} 
-              alt="WhatsApp" 
-              className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
-            />
-            <Button 
-              variant="hero" 
-              size="lg"
-              onClick={handleWhatsAppClick}
-              className="w-full sm:w-auto sm:flex-1"
-            >
-              FALE COM NOSSA EQUIPE
-            </Button>
-          </div>
-        </Card>
+        
       </div>
     </section>;
 };
