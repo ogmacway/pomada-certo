@@ -3,10 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Check, Star } from "lucide-react";
 import basicPlanMockup from "@/assets/basic-plan-mockup.png";
 import premiumPlanMockup from "@/assets/premium-plan-mockup.png";
-
 const PricingSection = () => {
-  return (
-    <section id="pricing" className="bg-brand-green px-3 py-12 sm:px-4 sm:py-16 md:py-24">
+  return <section id="pricing" className="bg-brand-green px-3 py-12 sm:px-4 sm:py-16 md:py-24">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold text-brand-yellow mb-8 sm:mb-12">
           ADQUIRA JÁ O SEU ACESSO AO NOSSO ECOSSISTEMA
@@ -17,17 +15,13 @@ const PricingSection = () => {
             <CardContent className="p-6 sm:p-8">
               {/* Mockup */}
               <div className="mb-4 sm:mb-6">
-                 <img 
-                  src={basicPlanMockup} 
-                  alt="Manual A Arte de Fazer Pomadas Naturais" 
-                  className="w-full h-32 sm:h-40 md:h-48 object-contain rounded-lg"
-                />
+                 <img src={basicPlanMockup} alt="Manual A Arte de Fazer Pomadas Naturais" className="w-full h-32 sm:h-40 md:h-48 object-contain rounded-lg" />
               </div>
               
               <h3 className="mb-3 text-lg font-bold text-brand-green sm:mb-4 sm:text-xl">ACESSO COMUM</h3>
               
               <div className="mb-4 sm:mb-6">
-                <p className="text-xs text-brand-green/70 sm:text-sm">
+                <p className="text-xs text-brand-green/70 sm:text-2xl">
                   De <span className="line-through">R$29,90</span>
                 </p>
                 <p className="text-2xl font-bold text-brand-green sm:text-3xl">R$ 9,90</p>
@@ -45,12 +39,7 @@ const PricingSection = () => {
                 </li>
               </ul>
               
-              <Button 
-                variant="hero" 
-                className="w-full text-xs xs:text-sm sm:text-base" 
-                size="lg"
-                onClick={() => window.open('https://go.pepperpay.com.br/i7x4b', '_blank')}
-              >
+              <Button variant="hero" className="w-full text-xs xs:text-sm sm:text-base" size="lg" onClick={() => window.open('https://go.pepperpay.com.br/i7x4b', '_blank')}>
                 ESCOLHER ACESSO COMUM
               </Button>
             </CardContent>
@@ -69,17 +58,13 @@ const PricingSection = () => {
             <CardContent className="p-6 pt-8 sm:p-8 sm:pt-12">
               {/* Mockup */}
               <div className="mb-4 sm:mb-6">
-                 <img 
-                  src={premiumPlanMockup} 
-                  alt="Ecossistema Pomadas pra Vida" 
-                  className="w-full h-32 sm:h-40 md:h-48 object-contain rounded-lg"
-                />
+                 <img src={premiumPlanMockup} alt="Ecossistema Pomadas pra Vida" className="w-full h-32 sm:h-40 md:h-48 object-contain rounded-lg" />
               </div>
               
               <h3 className="mb-3 text-lg font-bold text-brand-green sm:mb-4 sm:text-xl">ACESSO PREMIUM</h3>
               
               <div className="mb-4 sm:mb-6">
-                <p className="text-xs text-brand-green/70 sm:text-sm">
+                <p className="text-xs text-brand-green/70 sm:text-2xl">
                   De <span className="line-through">R$ 69,90</span>
                 </p>
                 <p className="text-2xl font-bold text-brand-green sm:text-3xl">R$29,90</p>
@@ -109,12 +94,7 @@ const PricingSection = () => {
                 </li>
               </ul>
               
-              <Button 
-                variant="cta" 
-                className="w-full text-xs xs:text-sm sm:text-base" 
-                size="lg"
-                onClick={() => window.open('https://go.pepperpay.com.br/zjsrf', '_blank')}
-              >
+              <Button variant="cta" className="w-full text-xs xs:text-sm sm:text-base" size="lg" onClick={() => window.open('https://go.pepperpay.com.br/zjsrf', '_blank')}>
                 ESCOLHER ACESSO PREMIUM
               </Button>
             </CardContent>
@@ -131,8 +111,6 @@ const PricingSection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PricingSection;
