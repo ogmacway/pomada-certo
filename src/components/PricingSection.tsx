@@ -74,27 +74,23 @@ const PricingSection = () => {
               <ul className="mb-6 space-y-2 sm:mb-8 sm:space-y-3">
                 <li className="flex items-start gap-2 sm:gap-3">
                   <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm font-medium text-brand-green">✅ TUDO do Plano Comum + Manual completo "A Arte de Fazer Pomadas Naturais" com mais de 50 receitas testadas e aprovadas</span>
+                  <span className="text-xs sm:text-sm font-medium text-brand-green">✅ TUDO do Plano Comum</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>🌿 Guia Completo do Cultivo de Ervas Medicinais:</strong> Aprenda do zero a plantar, colher e conservar suas próprias ervas em casa - economize centenas de reais por ano cultivando seu próprio jardim medicinal!</span>
+                  <span className="text-xs sm:text-sm text-brand-green">Guia do cultivo de ervas medicinais</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>💰 Dicas VIP de Fornecedores:</strong> Acesse nossa lista exclusiva com os melhores lugares (online e físicos) para comprar ingredientes de alta qualidade com até 70% de desconto. Locais que só profissionais conhecem!</span>
+                  <span className="text-xs sm:text-sm text-brand-green">Dicas secretas sobre onde encontrar produtos e economizar com ingredientes.</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>📱 Suporte VIP Prioritário no WhatsApp:</strong> Tire todas as suas dúvidas direto com especialistas! Atendimento humano garantido em até 24 HORAS em dias úteis. Nunca fique sem resposta quando precisar de ajuda.</span>
+                  <span className="text-xs sm:text-sm text-brand-green">Suporte VIP no WhatsApp (atendimento humano com nossa equipe 24 HORAS em dias úteis).</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>🎁 Atualizações Mensais VITALÍCIAS:</strong> Receba todo mês novas receitas exclusivas, estudos científicos atualizados e técnicas avançadas. Seu acesso evolui constantemente, sem pagar nada a mais! Entregue via WhatsApp e E-mail.</span>
-                </li>
-                <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>🏆 BÔNUS EXCLUSIVO:</strong> Templates profissionais de etiquetas para suas pomadas + Certificado digital de conclusão para usar como prova de conhecimento</span>
+                  <span className="text-xs sm:text-sm text-brand-green">Atualizações mensais de receitas e estudos. Entregue via WhatsApp e E-mail.</span>
                 </li>
               </ul>
               
