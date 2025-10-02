@@ -3,6 +3,8 @@ import depoimento1 from "@/assets/depoimento1.jpg";
 import depoimento2 from "@/assets/depoimento2.jpg";
 import depoimento3 from "@/assets/depoimento3.jpg";
 import depoimento4 from "@/assets/depoimento4.jpg";
+import depoimento5 from "@/assets/depoimento5.jpg";
+import depoimento6 from "@/assets/depoimento6.jpg";
 
 const testimonials = [
   {
@@ -20,6 +22,14 @@ const testimonials = [
   {
     image: depoimento4,
     alt: "Depoimento sobre pomadas milagrosas e resultados com alergias"
+  },
+  {
+    image: depoimento5,
+    alt: "Depoimento sobre pomada com arnica e óleo essencial de melaleuca"
+  },
+  {
+    image: depoimento6,
+    alt: "Depoimento de Ágata sobre pomada para alergia na mão"
   }
 ];
 
