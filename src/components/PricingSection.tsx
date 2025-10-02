@@ -71,30 +71,30 @@ const PricingSection = () => {
                 <p className="text-xs text-brand-green/70 sm:text-sm">Pagamento único • Acesso vitalício</p>
               </div>
               
-              <ul className="mb-6 space-y-2 sm:mb-8 sm:space-y-3">
+              <ul className="mb-6 space-y-3 sm:mb-8 sm:space-y-4">
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm font-medium text-brand-green">✅ TUDO do Plano Comum + Manual completo "A Arte de Fazer Pomadas Naturais" com mais de 50 receitas testadas e aprovadas</span>
+                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
+                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">✅ TUDO do Plano Comum</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>🌿 Guia Completo do Cultivo de Ervas Medicinais:</strong> Aprenda do zero a plantar, colher e conservar suas próprias ervas em casa - economize centenas de reais por ano cultivando seu próprio jardim medicinal!</span>
+                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
+                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">🌿 Guia Completo do Cultivo de Ervas Medicinais</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>💰 Dicas VIP de Fornecedores:</strong> Acesse nossa lista exclusiva com os melhores lugares (online e físicos) para comprar ingredientes de alta qualidade com até 70% de desconto. Locais que só profissionais conhecem!</span>
+                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
+                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">💰 Dicas VIP de Fornecedores</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>📱 Suporte VIP Prioritário no WhatsApp:</strong> Tire todas as suas dúvidas direto com especialistas! Atendimento humano garantido em até 24 HORAS em dias úteis. Nunca fique sem resposta quando precisar de ajuda.</span>
+                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
+                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">📱 Suporte VIP Prioritário no WhatsApp</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>🎁 Atualizações Mensais VITALÍCIAS:</strong> Receba todo mês novas receitas exclusivas, estudos científicos atualizados e técnicas avançadas. Seu acesso evolui constantemente, sem pagar nada a mais! Entregue via WhatsApp e E-mail.</span>
+                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
+                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">🎁 Atualizações Mensais VITALÍCIAS</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
-                  <span className="text-xs sm:text-sm text-brand-green"><strong>🏆 BÔNUS EXCLUSIVO:</strong> Templates profissionais de etiquetas para suas pomadas + Certificado digital de conclusão para usar como prova de conhecimento</span>
+                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
+                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">🏆 BÔNUS EXCLUSIVO</span>
                 </li>
               </ul>
               
