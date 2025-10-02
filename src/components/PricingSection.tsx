@@ -24,7 +24,7 @@ const PricingSection = () => {
                 <p className="text-xs text-brand-green/70 sm:text-2xl">
                   De <span className="line-through">R$29,90</span>
                 </p>
-                <p className="text-2xl font-bold text-brand-green sm:text-3xl">R$ 9,90</p>
+                <p className="text-2xl font-bold text-brand-green sm:text-5xl">R$ 9,90</p>
                 <p className="text-xs text-brand-green/70 sm:text-sm">Pagamento único • Acesso vitalício</p>
               </div>
               
@@ -67,7 +67,7 @@ const PricingSection = () => {
                 <p className="text-xs text-brand-green/70 sm:text-2xl">
                   De <span className="line-through">R$ 69,90</span>
                 </p>
-                <p className="text-2xl font-bold text-brand-green sm:text-3xl">R$29,90</p>
+                <p className="text-2xl font-bold text-brand-green sm:text-5xl">R$29,90</p>
                 <p className="text-xs text-brand-green/70 sm:text-sm">Pagamento único • Acesso vitalício</p>
               </div>
               
