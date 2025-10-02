@@ -71,30 +71,26 @@ const PricingSection = () => {
                 <p className="text-xs text-brand-green/70 sm:text-sm">Pagamento único • Acesso vitalício</p>
               </div>
               
-              <ul className="mb-6 space-y-3 sm:mb-8 sm:space-y-4">
+              <ul className="mb-6 space-y-2 sm:mb-8 sm:space-y-3">
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">✅ TUDO do Plano Comum</span>
+                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
+                  <span className="text-xs sm:text-sm font-medium text-brand-green">✅ TUDO DO ACESSO COMUM</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">🌿 Guia Completo do Cultivo de Ervas Medicinais</span>
+                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
+                  <span className="text-xs sm:text-sm text-brand-green">Guia do cultivo de ervas medicinais</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">💰 Dicas VIP de Fornecedores</span>
+                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
+                  <span className="text-xs sm:text-sm text-brand-green">Dicas secretas sobre onde encontrar produtos e economizar com ingredientes.</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">📱 Suporte VIP Prioritário no WhatsApp</span>
+                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
+                  <span className="text-xs sm:text-sm text-brand-green">Suporte VIP no WhatsApp (atendimento humano com nossa equipe 24 HORAS em dias úteis).</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">🎁 Atualizações Mensais VITALÍCIAS</span>
-                </li>
-                <li className="flex items-start gap-2 sm:gap-3">
-                  <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">🏆 BÔNUS EXCLUSIVO</span>
+                  <Check className="mt-1 h-3 w-3 sm:h-4 sm:w-4 text-brand-green flex-shrink-0" />
+                  <span className="text-xs sm:text-sm text-brand-green">Atualizações mensais de receitas e estudos. Entregue via WhatsApp e E-mail.</span>
                 </li>
               </ul>
               
