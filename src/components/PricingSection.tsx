@@ -82,7 +82,7 @@ const PricingSection = () => {
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">💰 Dicas VIP de Fornecedores</span>
+                  <span className="text-sm sm:text-base md:text-lg font-bold text-brand-green">💰 Indicações de Fornecedores</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <Check className="mt-1 h-4 w-4 sm:h-5 sm:w-5 text-brand-green flex-shrink-0" />
