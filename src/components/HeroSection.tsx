@@ -1,25 +1,21 @@
 import { Button } from "@/components/ui/button";
 import heroMockup from "@/assets/hero-mockup.png";
 import heroBackground from "@/assets/hero-background.jpg";
-
 const HeroSection = () => {
   const scrollToPricing = () => {
     const pricingSection = document.getElementById('pricing');
     if (pricingSection) {
-      pricingSection.scrollIntoView({ behavior: 'smooth' });
+      pricingSection.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section 
-      className="relative min-h-screen bg-brand-green px-3 py-8 sm:px-4 sm:py-12 md:py-20 overflow-hidden"
-      style={{
-        backgroundImage: `url(${heroBackground})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
-    >
+  return <section className="relative min-h-screen bg-brand-green px-3 py-8 sm:px-4 sm:py-12 md:py-20 overflow-hidden" style={{
+    backgroundImage: `url(${heroBackground})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+  }}>
       {/* Background overlay */}
       <div className="absolute inset-0 bg-brand-green/80"></div>
       
@@ -38,11 +34,7 @@ const HeroSection = () => {
         
         {/* Hero Mockup */}
         <div className="mb-8 flex justify-center sm:mb-12">
-          <img 
-            src={heroMockup} 
-            alt="A Arte de Fazer Pomadas Naturais" 
-            className="w-full max-w-md rounded-lg shadow-2xl"
-          />
+          <img src={heroMockup} alt="A Arte de Fazer Pomadas Naturais" className="w-full max-w-md rounded-lg shadow-2xl" />
         </div>
         
         {/* Copy */}
@@ -51,20 +43,12 @@ const HeroSection = () => {
             Mesmo que você nunca tenha feito antes, aprenda o passo a passo para extrair o poder curativo das plantas e melhorar sua saúde!
           </p>
           
-          <p className="mb-6 text-base leading-relaxed text-brand-white sm:mb-8 sm:text-lg md:text-xl">
-            Pomadas que já ajudaram mais de 1.500 pessoas. Aprenda por apenas{" "}
-            <span className="text-xl font-bold text-brand-yellow sm:text-2xl md:text-3xl">R$9,90</span>
-          </p>
+          
         </div>
         
         {/* CTA Button */}
         <div className="mb-4 sm:mb-6 w-full max-w-md mx-auto">
-          <Button 
-            variant="hero" 
-            size="xl" 
-            className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl"
-            onClick={scrollToPricing}
-          >
+          <Button variant="hero" size="xl" className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl" onClick={scrollToPricing}>
             QUERO FAZER POMADAS NATURAIS
           </Button>
         </div>
@@ -75,8 +59,6 @@ const HeroSection = () => {
         </p>
       </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
