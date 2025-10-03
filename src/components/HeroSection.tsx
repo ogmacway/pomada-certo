@@ -48,15 +48,11 @@ const HeroSection = () => {
         
         {/* CTA Button */}
         <div className="mb-4 sm:mb-6 w-full max-w-md mx-auto">
-          <Button variant="hero" size="xl" className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl" onClick={scrollToPricing}>
-            QUERO FAZER POMADAS NATURAIS
-          </Button>
+          
         </div>
         
         {/* Trust indicators */}
-        <p className="text-xs text-brand-white/80 sm:text-sm md:text-base">
-          ⚡ Acesso imediato • 🔒 Compra 100% segura
-        </p>
+        
       </div>
       </div>
     </section>;
